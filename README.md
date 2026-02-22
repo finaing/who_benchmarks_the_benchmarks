@@ -18,8 +18,9 @@ If you find the paper, code or data useful in your research, please use the foll
 
 We provide two scripts:
 
-1.  ``create_datasets.py`` to show how we created the subsamples of the benchmarks we evaluated (also included in the folder "unannotated data").
-2. ``process_data.RMD`` to show how we processed the data for analysis and to reproduce the figures included in the paper. This is done on the basis of the ``who_benchmarks_the_benchmarks_annotated_data.xlsx`` file.
+1.  [``create_datasets.py``](https://github.com/finaing/who_benchmarks_the_benchmarks/blob/main/create_datasets.py) to show how we created the subsamples of the benchmarks we evaluated (also included in the folder [``unannotated data``](https://github.com/finaing/who_benchmarks_the_benchmarks/blob/main/unannotated_data).
+2. [``process_data.Rmd``](https://github.com/finaing/who_benchmarks_the_benchmarks/blob/main/process_data.Rmd) to show how we processed the data for analysis and to reproduce the figures included in the paper. This is done on the basis of the [``who_benchmarks_the_benchmarks_annotated_data.xlsx``](https://github.com/finaing/who_benchmarks_the_benchmarks/blob/main/who_benchmarks_the_benchmarks_annotated_data.xlsx) file.
+
 
 
 
