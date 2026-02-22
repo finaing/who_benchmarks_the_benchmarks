@@ -1,0 +1,297 @@
+question,id,choices,answerKey
+"Kalíum (K) frumeind hefur 20 nifteind, 19 róteindir og 19 rafeind. Hver er þyngd frumeindarinnar fyrir kalíum?",Mercury_402211,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['19', '20', '38', '39'], dtype=object)}",D
+Hvaða einkennandi eiginleiki gefur til kynna að storkuberg kólni hægt?,Mercury_182018,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['steinefnasamsetning', 'harka', 'eðlisþyngd', 'kristalstærð'],
+      dtype=object)}",D
+"Tveir hlutar úr sama málmi eru settir á borð. Málmhlutirnir hafa sömu eðlisþyngd, massa og áferð. Hvaða eiginleiki hlýtur að vera eini munurinn á milli tveggja sýnishorna?",Mercury_7128380,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Þeir hafa mismunandi vídd.', 'Þeir hafa mismunandi suðumark.',
+       'Þeir eru gerðir úr mismunandi gerð efnis.',
+       'Þeir innihalda mismunandi magn efnis á rúmmálseiningu.'],
+      dtype=object)}",A
+Frumuhimnur eru sagðar vera sértækt gegndræpar. Fjórir nemendur voru beðnir um að útskýra hvað þetta þýðir og gáfu svörin hér að neðan.Nemandi 1: Frumuhimnur koma í veg fyrir að öll efni komist inn í frumuna.Nemandi 2: Frumuhimnur veita aðeins uppbyggilegan stuðning fyrir frumuna.Nemandi 3: Frumuhimnur stjórna hvaða efni geta komist inn og út úr frumunni.Nemandi 4: Frumuhimnur leyfa vatni og vatnsleysanlegum efnum að komast inn í frumuna.Hvaða nemandi greindi rétt frá hlutverki sértækt gegndræpu himnunnar?,Mercury_7219905,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Nemandi 1', 'Nemandi 2', 'Nemandi 3', 'Nemandi 4'], dtype=object)}",C
+Nemandi notar eftirfarandi einkenni til að lýsa hópi hluta í geimnum. * 200 milljarðar stjarna * 30 milljón ljósár frá Jörðu * 500 ljósár í þvermál Hvaða eftirfarandi er nemandinn líklegast að lýsa?,MCAS_8_2014_14,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['vetrarbraut', 'alheimurinn', 'stjörnumerki', 'sólkerfið'],
+      dtype=object)}",A
+Vísindamenn hafa mælt vaxtarhraða Atlantshafssvæðisins um 2 til 3 cm á ári. Þessi tegund virkni fellur saman við myndun hryggja á hafsbotni. Hver er líklegasta orsök þessarar virkni?,Mercury_7109253,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['rof vegna sjávarfalla', 'setmyndun', 'flæði meginlandsbasalts',
+       'hreyfing flekaspilda'], dtype=object)}",D
+Notaðu upplýsingarnar hér að neðan til að svara spurningunni. Hver lífvera á jörðinni er hluti af flóknu sambandi við aðrar lífverur. Þetta samband kallast fæðunet. Eftirfarandi lífverur eru hluti af fæðuneti sem er yfirleitt staðsett í og við vatnsból. þörungar fiskar kanínur örn furutré gras hagamús Hvaða meðlimur fæðunetsins er kjötæta?,MCAS_1999_8_24,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['hagamús', 'örn', 'kanína', 'þörungar'], dtype=object)}",B
+"Þegar ungbarn hristir hristur, það gefur frá sér hljóð. Hvaða form orku breyttist í hljóðorku?",NYSEDREGENTS_2005_4_28,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['rafmagns', 'ljós', 'vélrænt', 'hita'], dtype=object)}",C
+Hvaða aðgerð líkir best eftir hreyfingu handleggs við olnbogalið?,Mercury_7247975,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['opna skúffu', 'skera epli', 'loka bílhurð', 'ýta hjólbörum'],
+      dtype=object)}",C
+Hvað af eftirfarandi hefur mesta getu til að geyma varmaorku frá sólinni?,Mercury_7033583,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['loft', 'land', 'höf', 'plöntur'], dtype=object)}",C
+"Eftir skógareld, hvaða tegund lífvera mun hefja afleitt framvinduferlið?",Mercury_7245753,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['lítil runni', 'fullvaxin eikartré', 'sígræn tré',
+       'villtar blómplöntur'], dtype=object)}",D
+Hitastigið þar sem vatn frýs gerir vatninu kleift að vera til á jörðinni í hvaða tveimur formum?,Mercury_7056438,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['ferskvatn í ám og saltvatn í höfum',
+       'fljótandi höf og fastir jöklar',
+       'vatnsgufa í andrúmsloftinu og dropar í skýjum',
+       'vatn í jarðvegi og vatn í plöntum'], dtype=object)}",B
+Fjall með bráðnandi jökli er með læk með fossi. Fossinn fyllir stöðuvatn við rætur fjallsins. Hvar er vatnið kaldast?,Mercury_SC_416518,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['jökullinn', 'lækurinn', 'fossinn', 'stöðuvatnið'], dtype=object)}",A
+Ísmolavetur sem settur er í sólarljós bráðnar hratt. Hvað útskýrir þetta fyrirbæri BEST?,VASoL_2008_3_17,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Sólin er langt í burtu.', 'Sólin framleiðir hita.',
+       'Ísmolaviðurinn er fastur.', 'Ísmolaviðurinn lítur tær út.'],
+      dtype=object)}",B
+Skoðaðu hverja efnajöfnu til að ákvarða hver jafnan er rétt jöfnuð.,Mercury_415092,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Mg(NO_{3})_{2} + K_{2}CO_{3} -> MgCO_{3} + KNO_{3}',
+       'Mg(NO_{3})_{2} + K_{2}CO_{3} -> MgCO_{3} + 2KNO_{3}',
+       '2Mg(NO_{3})_{2} + K_{2}CO_{3} -> 2MgCO_{3} + KNO_{3}',
+       'Mg(NO_{3})_{2} + 2K_{2}CO_{3} -> MgCO_{3} + 2KNO_{3}'],
+      dtype=object)}",B
+"Bensín er auglýst sem ""losar færri mengunarefni"" þegar það er notað í bílum. Til að þessi fullyrðing sé rétt, hvað hefur líklegast gerst við bensínið?",Mercury_7027178,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Sýrustig þess hefur verið aukið.',
+       'Meira súrefni hefur verið leyst upp í því.',
+       'Óhreinindi hafa verið fjarlægð.',
+       'Sameindir þess hafa hærri efnaorku.'], dtype=object)}",C
+"Ungviði sjávarskjaldbaka eru yfirleitt dökk að lit. Stöku sinnum kemur sjávarskjaldbaka úr eggi sem er næstum hvít að lit. Þegar þessi ljóslitaða sjávarskjaldbaka skríður frá hreiðrinu á ströndinni til hafsins, gæti hún verið í hættu á að fá sólbruna. Ljósir litir skjaldbökurnar myndu líklegast",Mercury_7106908,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['hjálpa skjaldbökum að hafa betri möguleika á æxlun.',
+       'valda því að skel sjávarskjaldbakanna verður sterkari.',
+       'draga úr líkum á að skjaldbökur lifi af til að æxlast.',
+       'hjálpa við þróun nýrrar tegundar sjávarskjaldbaka.'], dtype=object)}",C
+"Í vatnshringnum, þegar vatn færist frá höfunum til skýjanna, hvaða breytingu verður vatnið fyrir?",Mercury_7218733,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Það breytist frá föstu efni í gas.',
+       'Það breytist frá saltvatni í ferskvatn.',
+       'Kristalstærð þess minnkar.', 'Efnaorka þess eykst.'], dtype=object)}",B
+Daníel er að velja hvaða pappír hann vill nota til að búa til kveðjukort. Hann vill velja pappír sem rifnar ekki auðveldlega. Hvaða eiginleiki pappírsins er mikilvægastur fyrir Daníel að hafa í huga?,MCAS_2010_5_11983,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['litur', 'stærð', 'mýkt', 'þykkt'], dtype=object)}",D
+Á meðan nemandi var að tína villt blóm fór hann að hnerra og fékk kláða og vot augu. Hvaða líkamskerfi veldur þessari svörun?,Mercury_7004043,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['ónæmis', 'tauga', 'vöðva', 'blóðrásar'], dtype=object)}",A
+Hvaða dýr er að undirbúa sig fyrir árstíðabundnar breytingar í umhverfinu?,NYSEDREGENTS_2005_4_14,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['leðurblaka að fljúga á nóttu', 'hjörtur að drekka vatn',
+       'ugla að éta mús', 'íkorna að safna hnetum'], dtype=object)}",D
+Hvaða eiginleiki DNA veldur frumusérhæfingu í þroskandi fósturvísum?,Mercury_7227938,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['hvaða gen eru til staðar',
+       'hversu margar afritanir af hverju geni eru til staðar',
+       'hvaða gen eru virk', 'hvaða prótein er framleitt af geni'],
+      dtype=object)}",C
+Hvaða einkenni úlfs er mest háð umhverfi hans?,MCAS_2016_5_15,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['stærð fótanna', 'litur augna', 'lögun eyrna', 'ástand feldsins'],
+      dtype=object)}",D
+Hvað af eftirfarandi lýsir best steinefni?,MCAS_2011_5_17,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['aðalnæringarefnið í öllum mat',
+       'tegund korns sem finnst í morgunkorni',
+       'náttúrulegt efni sem myndar bergtegundir',
+       'niðurbrotin plöntuefni sem finnast í jarðvegi'], dtype=object)}",C
+Sónar búnaður sendir bylgjur í djúpt vatn og mælir,Mercury_7008995,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['tímatöf endurkastsbylgjanna.', 'ljósbrot sendu bylgjanna.',
+       'stefnu sendu bylgjanna.', 'truflun sendu og endurkastsbylgjanna.'],
+      dtype=object)}",A
+Samskipti mannsins við umhverfið hafa leitt til aukinnar súrs regns. Hvaða þýði hafa mennirnir haft mest neikvæð áhrif á með því að stuðla að myndun súrs regns?,Mercury_7193113,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['froskar í tjarnarvistkerfi', 'fiskar í sjávarvistkerfi',
+       'birnir í freðmýrarvistkerfi', 'ljón í graslendavistkerfi'],
+      dtype=object)}",A
+Hvað af eftirfarandi er satt þegar viðarbútur brennur að fullu í eldi?,Mercury_7084000,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Breytingin á viðnum er afturkræf.', 'Orkan í viðnum eyðist.',
+       'Breytingin á viðnum er eðlisfræðileg.',
+       'Orkan í viðnum umbreytist.'], dtype=object)}",D
+Hvað af eftirfarandi lýsir vatni á föstu formi?,VASoL_2010_3_21,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Gufa sem rís til himins', 'Haglél í stormi',
+       'Öldur sem brotna á ströndinni', 'Rigning sem fellur úr skýjunum'],
+      dtype=object)}",B
+Tegund fugls hefur ekki sést síðan um 1900 og er talin útdauð. Hvaða vísbendingar myndu best afsanna þá fullyrðingu að fuglinn sé útdauður?,Mercury_7127173,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Fuglaskoðari teiknar mynd af fuglinum.',
+       'Vísindamaður finnur steingerðar leifar af fuglinum.',
+       'Rannsakandi tekur ljósmynd af fuglinum.',
+       'Landvörður finnur heppilegt búsvæði fyrir fuglinn.'], dtype=object)}",C
+"Nektar er sætur vökvi sem sumar blómplöntur framleiða. Kolibri drekkur nektar úr blómi. Þegar kolibri drekkur nektar, festist frjókorn úr blóminu við gogg kolibríisins. Myndin sýnir kolibri drekka nektar úr blómi. Hvaða fullyrðing útskýrir hlutverk kolibríis í lífsferli blómplöntu?",OHAT_2010_5_20,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Kolibri flytur plöntunni fæðu.',
+       'Kolibri hjálpar plöntunni að fjölga sér.',
+       'Kolibri verndar plöntuna fyrir rándýrum.',
+       'Kolibri fær blómin til að framleiða nektar.'], dtype=object)}",B
+Breyting á þéttleika lofts getur leitt til golu. Hvaða skýringarmynd sýnir best röð orkuleiðslu sem byrjar með sólinni og leiðir til golu?,AKDE&ED_2012_8_42,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['geislun → varmaleiðni → gola',
+       'geislun → varmaleiðni → varmaburður → gola',
+       'varmaburður → geislun → gola',
+       'varmaburður → varmaleiðni → geislun → gola'], dtype=object)}",B
+Ein stjörnufræðileg eining er meðalfjarlægðin á milli jarðarinnar og sólarinnar. Þessi eining er oftast notuð til að lýsa fjarlægðinni á milli hvaða tveggja hluta?,Mercury_7111248,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['frá vetrarbraut til vetrarbrautar', 'frá Satúrnusi til Merkúrs',
+       'frá sólinni til Proxima Centauri',
+       'frá Stóra Bjarnarbirni til Litla Bjarnarbjarnar'], dtype=object)}",B
+Sauðfjáráskorun í þróun. Tegund sauðfjár lifir á skoska eyjunni Hirta. Hirta hefur nóg af grasi fyrir sauðfé að éta og engir náttúrulegir ránfuglar sauðfjár lifa á eyjunni. Sumt sauðfé hefur dökka ull og sumt ljósa ull. Sauðfé með dökka ull er yfirleitt mun stærra og sterkara en sauðfé með ljósa ull. Hins vegar hafa rannsakendur komist að því að á síðustu 20 árum hefur sauðfé með ljósa ull fjölgað. Yfirleitt hjálpa styrkur og stærð dýrum að lifa af og æxlast. Á Hirta er sauðfé með ljósa ull fleiri en sauðfé með dökka ull vegna þess að sauðfé með ljósa ull,MSA_2013_8_5,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['framleiðir meiri ull', 'hefur takmarkaðra mataræði',
+       'eignast færri afkvæmi á hverju ári',
+       'hefur meiri möguleika á að lifa af og æxlast'], dtype=object)}",D
+Í ertuplantan er hæð ríkjandi yfir lágvöxtur. Hvaða stærð ertuplantar myndu verða til þegar tvær lágvaxnar plöntur eru krossaðar?,MCAS_1998_8_25,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['aðeins lágvaxnar plöntur', 'lágvaxnar og hávaxnar plöntur',
+       'aðeins hávaxnar plöntur', 'meðalstórar plöntur'], dtype=object)}",A
+Hvaða matur er ávöxtur?,NYSEDREGENTS_2004_4_12,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['kartafla', 'laukur', 'gulrót', 'grasker'], dtype=object)}",D
+Hvað af eftirfarandi lýsir best samspili milli jarðar og sólarorku sem virkar til að hlýja upp plánetuna?,Mercury_7236600,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['upptaka sólarorku með landmassa á meginlöndum',
+       'nýting sólarorku í ljóstillífunarferlinu',
+       'endurkast sólarorku frá snjóhvítum póllendum',
+       'umbreyting sólarorku í norðurljós'], dtype=object)}",A
+Þegar sameindir vatns byrja að hægja á sér fara þær inn í fasa þar sem þær geta ekki lengur auðveldlega færst fram hjá hver annarri. Vatnið er að fara í gegnum fasabreytingu og mun,AKDE&ED_2008_8_11,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['vera áfram blanda.', 'vera áfram efnasamband.', 'verða frumefni.',
+       'verða efnasamband.'], dtype=object)}",B
+Vöðvafrumur hafa hæfileika til að geyma og losa mikið magn orku. Hvaða líkamsstarfsemi nýtist best við losun þessarar orku?,Mercury_7171990,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['loftskipti', 'hreyfing líkamshluta', 'upptaka næringarefna',
+       'sending taugaboða'], dtype=object)}",B
+"Áður en nemendur fá að nota hamra til að rannsaka hvernig ýmsir steinar brotna, hvaða spurningu myndi kennarinn líklegast spyrja?",Mercury_7001155,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Eru allir með hlífðargleraugu?',
+       'Hver ætlar að sækja steinana í hilluna?',
+       'Hver er tilgangur þessarar rannsóknar?',
+       'Er einhver sem hefur boðist til að teikna myndir af brotunum?'],
+      dtype=object)}",A
+Breytingar ættu að vera gerðar á vísindakenningum þegar,Mercury_7083580,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['almenningstuðningur við kenninguna minnkar.',
+       'kenningin er meira en 100 ára gömul.',
+       'ný tækni veitir uppfærðar upplýsingar.',
+       'hægt er að hagnast fjárhagslega með því að bæta við gögnum.'],
+      dtype=object)}",C
+"Þegar fólk æfir líkamsrækt, finnur það oft fyrir þorsta og byrjar að svitna. Það er mikilvægt fyrir fólk að finna fyrir þorsta við líkamsrækt vegna þess að það lætur það átta sig á að það ætti að",TAKS_2009_8_45,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['taka sér hlé', 'drekka vökva', 'hægja á önduninni',
+       'stoppa til að borða eitthvað'], dtype=object)}",B
+Jón var að nota mp3 spilarann sinn þegar hann hætti skyndilega að virka. Hvað er það fyrsta sem Jón ætti að gera til að reyna að laga vandamálið?,Mercury_SC_405764,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['hlaða rafhlöðuna', 'taka spilarann í sundur',
+       'skipta spilaranum út fyrir nýjan', 'skipta yfir í annað lag'],
+      dtype=object)}",A
+"Stór, fastur hnöttur í sólkerfinu er flokkaður sem tungl. Hvaða einkenni hnattarins gefur honum þessa flokkun?",Mercury_7210613,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Hann snýst um eigin ás.', 'Hann skortir fljótandi vatn.',
+       'Hann gengur í sporbaug um nálæga plánetu.',
+       'Hann endurkastar ljósi frá stjörnu.'], dtype=object)}",C
+Hvaða einkenni fugls hjálpar mest líklega við að ná í fæðu sem finnst á litlum stöðum?,Mercury_SC_406721,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['sundfit', 'stór líkami', 'mjúkir fjaðrir', 'mjór nef'],
+      dtype=object)}",D
+Bikarglasi sem inniheldur 50 millilítra af ís er sett á gluggakistuna. Eftir nokkra klukkutíma bráðnar ísinn. Hvaða eiginleiki íssins breyttist ekki þegar hann bráðnaði?,MSA_2015_5_46,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['massinn', 'rúmmálið', 'hitastigið', 'eðlisástand'], dtype=object)}",A
+Nemandi rannsakaði hlutfall orku sem fengið er úr nokkrum fæðugjöfum fyrir hóp arna. Hvaða snið er besta leiðin til að birta þessi gögn?,Mercury_7027020,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['tafla', 'skífurit', 'súlurit', 'línurit'], dtype=object)}",B
+Samsetning jarðvegs hefur áhrif á getu jarðvegsins til að halda og leiða vatn og loft. Hvaða jarðvegsgerð væri best til að rækta uppskeru garð?,Mercury_7057733,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Sandkenndur jarðvegur vegna þess að hann inniheldur mikið af kísli.',
+       'Malarkenndur jarðvegur vegna þess að hann inniheldur sand og leir.',
+       'Lítillega grýttur jarðvegur vegna þess að hann veitir nauðsynleg steinefni.',
+       'Leirkenndur jarðvegur vegna þess að hann er þungur og heldur vatni.'],
+      dtype=object)}",B
+Frumueind getur gert allt það sama og fruma í fjölfruma lífveru nema,Mercury_SC_416456,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['sérhæfa sig.', 'æxlast.', 'nota orku.', 'búa til prótein.'],
+      dtype=object)}",A
+Af hverju er hægt að nota gufu til að elda mat?,Mercury_SC_415723,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Gufa vinnur vinnu á hlutum.', 'Gufa er form af vatni.',
+       'Gufa getur flutt hita til kaldari hluta.',
+       'Gufa getur farið í gegnum lítil rými.'], dtype=object)}",C
+Hvaða starfsemi er beint stjórnað af taugafrumum?,Mercury_7239418,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['framleiðsla kynfrumna', 'sláttur hjartans',
+       'hraði og lögun beinvaxtar', 'sykurstig í blóði'], dtype=object)}",B
+"Mýs, kanínur, rauðrefir og íkorna búa öll í runnavistkerfinu. Hvert dýrið ætti erfiðast með að lifa af ef stofn hinna þriggja dýranna héldi áfram að minnka?",Mercury_7016730,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['mús', 'íkorni', 'rauðrefur', 'kanína'], dtype=object)}",C
+Hvaða mæling lýsir hreyfingu gúmmíboltar?,Mercury_406888,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['5 cm', '10 m/s', '15 njúton', '50 grömm'], dtype=object)}",B
+Efni geta sameinast efnafræðilega eða eðlisfræðilega. Hvaða efni mynda nýtt efni þegar þau sameinast efnafræðilega?,MDSA_2010_5_2,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['salt og pipar', 'vatn og sykur', 'járnnaglar og peningar',
+       'matarsódi og edik'], dtype=object)}",D
+Fólk kann að fjarlægja fallin tré úr skógum til að draga úr eldhættu. Nú er talið að fjarlæging trjánna hafi áhrif á heilbrigði skógarins. Hvaða áhrif myndi fjarlæging fallinna trjáa úr skógum líklegast hafa á heilbrigði skóga?,Mercury_7145495,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['aukin hætta á skógareldum',
+       'auknar fæðulindir fyrir skógarsveppi',
+       'minnkuð frjósemi jarðvegs með því að koma í veg fyrir næringarefnaendurvinnslu',
+       'minnkuð gróður skóga með aukinni sólarljósi gegnum skóginn'],
+      dtype=object)}",C
+Þegar flugvél stígur til lofts tekur Jón flugmaður eftir því að ískristallar myndast á framrúðunni. Þetta gerist vegna þess að,MEAP_2005_5_38,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['skipti eru algengari í hærri hæðum.',
+       'núningur við andrúmsloftið veldur ísmyndun.',
+       'vatn gufar hraðar upp í hærri hæðum og myndar ískristalla.',
+       'raki utan á flugvélinni frýs vegna kaldara lofts í hærri hæðum.'],
+      dtype=object)}",D
+Guðrún er að rækta grænmetisgróðurreit. Á hvaða árstíma fá plönturnar í gróðurreitnum hennar Guðrúnar mesta orku frá sólinni til að vaxa?,Mercury_SC_408664,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['haust', 'vor', 'sumar', 'vetur'], dtype=object)}",C
+Hvað myndar bæði dali og gljúfur?,Mercury_SC_415410,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['jöklar', 'ár', 'vindur', 'sjávarföll'], dtype=object)}",B
+Hvað af eftirfarandi er talið vera óendurnýjanleg auðlind?,ACTAAP_2007_7_4,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['olía', 'jarðvegur', 'matur', 'vatn'], dtype=object)}",A
+Jörðin og tunglið hafa alla þessa sameiginlegu eiginleika nema,Mercury_SC_401765,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['kjarna.', 'skorpu.', 'vatn.', 'möttul.'], dtype=object)}",C
+Kennari setur kaffi í bollahaldara í bíl. Þegar bíllinn stoppar skyndilega skvettist hluti kaffisins úr bollanum. Hvaða staðhæfing útskýrir best af hverju kaffið skvettist?,ACTAAP_2014_7_11,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Kaffið heldur áfram að hreyfast því hemlunarkrafturinn verkar aðeins á bílinn.',
+       'Kaffið heldur áfram að hreyfast því kraftur frá bollahöldurum togar í kaffið.',
+       'Hemlunarkrafturinn á bílinn veldur jafn miklum og gagnstæðum viðbrögðum frá kaffinu.',
+       'Hemlunarkrafturinn veldur því að hreyfing bílsins hægist á og hreyfing kaffisins eykst.'],
+      dtype=object)}",A
+Þegar rignir munu sum dýr ___.,VASoL_2010_3_18,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['fara í dvala fyrir árstíðina', 'fara til hlýrra loftslaga',
+       'breyta líkamsþekju sinni', 'færa sig til að leita skjóls'],
+      dtype=object)}",D
+Hvaða landslagsform er afleiðing af uppbyggingarafli jökuls?,Mercury_SC_401653,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['dalir sem hafa verið ristir af hreyfanlegum jökli',
+       'hrúgur af grjóti sem bráðnandi jökull skilur eftir',
+       'rákir sem myndast á granítyfirborði af völdum jökuls',
+       'klapparhæðir sem hafa orðið hrjúfar vegna skriðs jökuls'],
+      dtype=object)}",B
+Margar stjörnur sjást á himni að kvöldi. Hver fullyrðing útskýrir best af hverju sólin virðist bjartari en stjörnurnar sem sjást á næturhimninum?,AKDE&ED_2012_4_22,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Sólin er stærri en stjörnurnar sem sjást á næturhimninum.',
+       'Sólin er minni en stjörnurnar sem sjást á næturhimninum.',
+       'Sólin er nær jörðinni en stjörnurnar sem sjást á næturhimninum.',
+       'Sólin er fjær jörðinni en stjörnurnar sem sjást á næturhimninum.'],
+      dtype=object)}",C
+"Nemandi notar lýsingar til að flokka lífverur. Ein lífvera er sögð hafa skynfæri til að greina hita, verpa eggjum til æxlunar, nota eitur til varnar og hafa hæfni til að breyta líkamshita með umhverfi sínu. Hvernig myndi nemandinn flokka þessa lífveru?",Mercury_7058118,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['baktería', 'spendýr', 'skriðdýr', 'fugl'], dtype=object)}",C
+Nemandi ýtir rauðum leikfangabíl á viðargólfi. Síðan ýtir nemandinn sama rauða leikfangabílnum á steingólfi. Hvaða spurningu er nemandinn líklegast að rannsaka?,AKDE&ED_2012_4_33,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Hversu hratt rúllar leikfangabíll venjulega?',
+       'Hver er besta leiðin til að láta leikfangabíl rúlla?',
+       'Hvaða yfirborð leyfir leikfangabíl að rúlla lengra?',
+       'Hefur litur áhrif á vegalengdina sem leikfangabíll rúllar?'],
+      dtype=object)}",C
+Hvað af eftirfarandi er UPPSPRETTA ljóss?,MCAS_1999_4_12,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Jörðin', 'reikistjarna', 'stjarna', 'tunglið'], dtype=object)}",C
+Nemendur skráðu upphafs- og lokahlutfall mismunandi lita jarðvegs sem útsett var fyrir beinu sólarljósi í þrjár klukkustundir. Nemendurnir vilja bera saman heildarhlutfall hitastigsbreytinga fyrir hvern jarðvegslit. Hvaða snið væri heppilegast til að birta niðurstöður þessarar rannsóknar?,Mercury_7214673,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['súlurit', 'línurit', 'skífurit', 'töflur'], dtype=object)}",A
+Hvaða jarðvegsþáttur hefur minnsta getu til að halda vatni?,Mercury_7071943,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['silt', 'leir', 'sandur', 'húmus'], dtype=object)}",C
+Hvaða eftirfarandi eiginleiki er sameiginlegur frumefnum kolefnisfjölskyldunnar?,Mercury_412642,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['sætistala 6', 'atómmassi 12', 'sömu rafeindauppbygging',
+       'fjöldi valenselektrona'], dtype=object)}",D
+Hvað af eftirfarandi er að finna í öllum lífverum?,Mercury_7268188,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['fruma', 'vefur', 'líffæri', 'líffærakerfi'], dtype=object)}",A
+Hver er niðurstaða frumöndunnar?,NYSEDREGENTS_2006_8_39,"{'label': array(['1', '2', '3', '4'], dtype=object), 'text': array(['Orka losnar fyrir frumuferlana.',
+       'Súrefni er losað fyrir ljóstillífun.',
+       'Frumur gangast undir niðurbrot.',
+       'Næringarefnum er skilað út til að koma í veg fyrir uppsöfnun líkamsfitu.'],
+      dtype=object)}",1
+"Hvað eiga ís, steinn og álstykki sameiginlegt?",Mercury_SC_402047,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Þau eru öll föst efni.', 'Þau eru öll vökvar.',
+       'Þau eru öll steinefni.', 'Þau eru öll frumefni.'], dtype=object)}",A
+Hvað af eftirfarandi veldur efnabreytingu?,Mercury_SC_LBS10656,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Magnús finnur lykt af blómi.', 'Guðrún kveikir á kerti.',
+       'Einar litar blað blátt.', 'Helga finnur fyrir grófu efni.'],
+      dtype=object)}",B
+Hvaða frumuhluti er ekki til staðar í dýrafrumum?,MCAS_2008_8_5719,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['frumuhimna', 'frumuveggur', 'hvatberi', 'frumukjarni'],
+      dtype=object)}",B
+Hreyfiorka agna í sýni efnis fer vaxandi. Þetta sýni er líklegast,Mercury_7223283,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['vökvi sem er að hitna.', 'gas sem er að kólna.',
+       'vökvi sem er að breytast í fast efni.',
+       'gas sem er að breytast í vökva.'], dtype=object)}",A
+Hvaða hegðun er líklegast lærð hegðun?,AKDE&ED_2012_8_45,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Fugl byggir hreiður.', 'Kónguló spinnur vef.',
+       'Ljónsungi æfir veiðifærni sína.',
+       'Ánamaðkur færir sig frá björtu ljósi.'], dtype=object)}",C
+Tveimur efnum er blandað saman í bikarglasi sem stendur í ísvatnsbaði. Ísinn í vatninu bráðnar á meðan efnin hvarfast í eina mínútu. Hvaða tegund efnahvarfs á sér stað?,Mercury_7041248,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['innvermt, þar sem orka er tekin inn',
+       'innvermt, þar sem orka er losuð',
+       'útvermt, þar sem orka er tekin inn',
+       'útvermt, þar sem orka er losuð'], dtype=object)}",D
+Hvernig finna fræ sem grafin eru í algjöru myrkri í jarðveginum leið sína að yfirborði jarðvegsins?,Mercury_7268293,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Þau vaxa í átt að ljósi.', 'Þau vaxa í átt að yfirborðshita.',
+       'Þau vaxa í gagnstæða átt við berggrunninn.',
+       'Þau vaxa í gagnstæða átt við þyngdarkraftinn.'], dtype=object)}",D
+Hvaða hópur samanstendur eingöngu af lifandi hlutum?,TIMSS_2003_4_pg58,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['kanína, fræ, fugl', 'fræ, fugl, vindur',
+       'eldfjall, kerti, kanína', 'vindur, kerti, eldfjall'], dtype=object)}",A
+Handhaldið saumavél notar rafhlöðu til að hreyfa nál. Nálin fer hratt upp og niður. Hvaða orkubreyting á sér stað?,Mercury_SC_413531,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Hreyfiorka breytist í efnaorku.',
+       'Geymd orka breytist í hreyfiorku.',
+       'Rafmagn breytist í geymda orku.', 'Varmaorka breytist í rafmagn.'],
+      dtype=object)}",B
+"Skordýraeitur berst í vötn Everglades og útrýmir mörgum af þeim fisk-, froskdýra- og fuglastofnum sem krókódílar reiða sig á til fæðu. Hvaða breyting myndi líklegast eiga sér stað meðal krókódílastofnsins?",Mercury_7168665,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['aukning á fjölgunarhraða', 'fækkun dauðsfalla krókódíla',
+       'aukin árásargirni milli einstaklinga',
+       'fækkun krókódíla sem flytjast búferlum'], dtype=object)}",C
+Hvaða líffæri senda boð frá heila til vöðva í handlegg?,Mercury_7239523,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['skynfrumur', 'millitaugafrumur', 'hreyfitaugafrumur',
+       'vélindaviðtakafrumur'], dtype=object)}",C
+"Ef nægur hiti er tekinn frá íláti með vatni, hvað mun þá gerast við vatnið?",MCAS_2004_5_13,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Það mun byrja að sjóða.', 'Það mun verða fast efni.',
+       'Það mun breytast í gas.', 'Það mun aukast í þyngd.'], dtype=object)}",B
+Hljóð heyrist þegar þú plokkar streng á gítar. Hvað mun gerast við hljóðið ef sami strengur er plokkaður fastar?,TIMSS_2007_8_pg128,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Hljóðstyrkurinn verður sá sami og tónhæðin verður hærri.',
+       'Tónhæðin verður sú sama og hljóðstyrkurinn verður hærri.',
+       'Bæði tónhæðin og hljóðstyrkurinn verða hærri.',
+       'Bæði tónhæðin og hljóðstyrkurinn verða þau sömu.'], dtype=object)}",B
+"Vísindamaður á vettvangsferð uppgötvaði nýja lífveru. Hún rannsakaði frumur þess undir smásjá og tók eftir mismunandi byggingum, þar á meðal kjarna, frumuvegg og nokkrum klórópløstum. Þessi lífvera yrði réttilega flokkuð í hvaða ríki af eftirfarandi?",MCAS_2002_8_9,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Dýraríki', 'Örveruríki', 'Plönturíki', 'Svepparíki'], dtype=object)}",C
+Hvað af eftirfarandi er frumefni?,Mercury_404786,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['KBr', 'O_{2}', '2KCl', 'FeO_{2}'], dtype=object)}",B
+Hvaða eind hefur alltaf massa sem nemur einni atómsmassa (amu) og enga hleðslu?,Mercury_7086293,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['nifteind', 'rótareind', 'rafeind', 'frumeind'], dtype=object)}",A
+Veðurspáin segir að mikil snjókoma sé í vændum síðar í dag. Hvaða veðurathugun er líkleg rétt áður en snjóar?,OHAT_2007_5_39,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['heiðskír himinn', 'þykkir gráir skýjum', 'lítil hvít ský',
+       'hlýtt hitastig'], dtype=object)}",B
+"Dagbjört tók með sér súkkulaðistykki í nesti, en súkkulaðið bráðnaði í skólatöskunni hennar. Dagbjört vill framkvæma vísindalega rannsókn til að komast að ástæðunni fyrir því að súkkulaðistykkið hennar bráðnaði í töskunni. Hvaða tilgátu ætti Dagbjört að nota fyrir rannsókn sína?",ACTAAP_2014_5_1,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Súkkulaði bragðast betur þegar það er bráðnað.',
+       'Súkkulaði bragðast eins jafnvel þegar það er bráðnað.',
+       'Ef súkkulaðið er brotið þá mun súkkulaðið bráðna.',
+       'Ef hita er bætt við súkkulaði þá mun súkkulaðið bráðna.'],
+      dtype=object)}",D
+Vísindamenn sem eru ósammála niðurstöðum tilraunar ættu að,Mercury_7001243,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['breyta tilrauninni.', 'halda skoðunum sínum fyrir sig.',
+       'komast að því hvað aðrir vísindamenn halda um niðurstöðurnar.',
+       'endurtaka tilraunina nokkrum sinnum og bera saman niðurstöður.'],
+      dtype=object)}",D
+Ljós er brotin minnst þegar það fer í gegnum,Mercury_SC_402085,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['sjónaukaglas.', 'lituð gluggatjöld.', 'stækkunargler.',
+       'gleraugu.'], dtype=object)}",B
+Af hverju er samkeppni á meðal karldýra á pörunartímabilinu mikilvæg í sumum dýrategundum?,Mercury_183960,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Það tryggir að erfðaefni frá hæfustu dýrunum berist áfram.',
+       'Það gerir kvendýrum kleift að greina á milli fullorðinna og ungra karldýra.',
+       'Það veitir tegundinni nýjar leiðir til samskipta.',
+       'Það hraðar æxlunarferlinu.'], dtype=object)}",A
+Hver af eftirfarandi er líklegasta afleiðing þess að fella mikinn fjölda trjáa?,Mercury_SC_407194,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['tap á búsvæðum dýra', 'aukning súrefnis í andrúmsloftinu',
+       'minni mengun', 'minnkun jarðvegsrofs'], dtype=object)}",A
+Fugl hefur nýlega klakist út úr eggi. Hvaða stig er líklegast að komi næst í lífsferli fuglsins?,MCAS_2013_5_29398,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['fæðing', 'dauði', 'vöxtur', 'æxlun'], dtype=object)}",C
+Hvað eiga Vetrarbrautin og aðrar stjörnuþokur í alheiminum sameiginlegt?,Mercury_7097965,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Þær eru svipaðar að lögun.', 'Þær snúast í sömu átt.',
+       'Þær innihalda sama fjölda stjarna.', 'Þær hafa svipuð frumefni.'],
+      dtype=object)}",D
+Í desember mun ein hlið jarðar fá minna orku frá sólinni en hin hliðin. Hvaða fullyrðing útskýrir þessa staðreynd best?,Mercury_SC_408038,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Jörðin snýst um ás sinn.', 'Jörðin hallar á ás sínum.',
+       'Sólarljós sem ferðast til jarðar endurspeglast af tunglinu.',
+       'Sólarljós sem ferðast til jarðar er hindrað af tunglinu.'],
+      dtype=object)}",B
+Frá jörðinni sjáum við sólina á daginn en aðrar stjörnur á næturnar. Næturstjörnur líta út eins og litlir ljóspunktar. Hver fullyrðing útskýrir hvers vegna næturstjörnur virðast miklu minni en sólin?,OHAT_2007_5_34,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Stjörnurnar eru miklu minni.',
+       'Himinninn er miklu dekkri á nóttunni.',
+       'Stjörnurnar eru miklu lengra í burtu.',
+       'Tunglið byrgir fyrir meirihluta stjörnuljóssins.'], dtype=object)}",C
+Eðlisfræðilegir og efnafræðilegir eiginleikar geta verið notaðir til að flokka efni. Hvað af eftirfarandi sýnir efnafræðilegan eiginleika?,Mercury_SC_LBS10782,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Silfur bráðnar.', 'Magnesíum brennur.',
+       'Brennisteinn er gult fast efni.', 'Ál leiðir hita.'], dtype=object)}",B
+Katrín rannsakar hvernig ensím eru mikilvæg fyrir líkamsstarfsemi. Hvernig er best að útskýra hlutverk ensíma í lífefnafræðilegri virkni?,Mercury_7145530,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Ensím virka við öll pH gildi.', 'Ensím minnka hraða efnaskipta.',
+       'Ensím gera efnahvörfum kleift að eiga sér stað við lægra hitastig.',
+       'Ensím auka virkjunarorku sem þarf fyrir efnahvörf.'], dtype=object)}",C
+Hver er líklegasta afleiðingin af því að tunglið fjarlægist jörðina?,MEA_2010_8_20-v1,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Tunglsólarhringur er styttri.', 'Tunglmyrkvi varir lengur.',
+       'Jörðin færist nær sólinni.', 'Sjávarföll jarðar minnka að stærð.'],
+      dtype=object)}",D
+Hvaða þáttur getur aukið magn brennisteinsdíoxíðs í andrúmsloftinu?,Mercury_7044048,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['of mikil áburðarnotkun á landbúnaðarsvæðum',
+       'starfsemi kolaknúinna raforkuvera', 'heitur sumardagur',
+       'of mikil rigning'], dtype=object)}",B
+Vísindamaður fann steingerðar leifar sjávarplöntu í klettum í eyðimörk. Hvað segir þessi uppgötvun vísindamanninum líklegast?,Mercury_SC_406541,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Steingerðarnar mynduðust á fjallstoppi.',
+       'Steingerðarnar mynduðust í úrhelli.',
+       'Svæðið var með mörg eldgos.',
+       'Svæðið var einu sinni þakið vatni.'], dtype=object)}",D
+"Natríum, Na, er í sama hópi og",Mercury_412149,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Ne.', 'Mg.', 'Ca.', 'K.'], dtype=object)}",D
+Uppspretta orkunnar fyrir vatnshringrás jarðar er,TIMSS_1995_8_I17,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['vindurinn', 'geislun sólar', 'geislun jarðar', 'þyngdarafl sólar'],
+      dtype=object)}",B
+Hvernig hefur brennsla jarðefnaeldsneytis mest valdið hnignun á gæðum andrúmsloftsins sem fólk andar að sér?,Mercury_7033810,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['með því að bæta við agnamengun',
+       'með því að búa til gat á ósonlaginu',
+       'með því að valda sýruúrkomu',
+       'með því að auka styrk koltvísýrings'], dtype=object)}",A
+Hvaða aðstæður eru dæmi um erfðaeinkenni?,Mercury_401790,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['ljón veiða sebrahesta', 'apar nota kvisti til að ná í mat',
+       'fuglar fylgja farfuglamynstri',
+       'birnir opna kælitöskur á tjaldsvæðum'], dtype=object)}",A
+Nemandi ýtir á tré með 10 newton (N) afli. Tréð hreyfist ekki. Hvert er afl trésins á nemandann?,NYSEDREGENTS_2011_8_43,"{'label': array(['1', '2', '3', '4'], dtype=object), 'text': array(['0 N', '5 N', '10 N', '20 N'], dtype=object)}",3
+Hvaða breyting myndi líklega auka fjölda salamandra mest?,Mercury_SC_415480,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['flóð', 'þurrkur', 'eldur', 'skriða'], dtype=object)}",A
+Hvaða eiginleika hafa frumeindaþyrnir og fjölfruma lífverur sameiginlega?,NCEOGA_2013_5_33,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Báðir hafa frumur með sérhæfð hlutverk fyrir hvert lífsferli.',
+       'Báðir framkvæma öll lífsferli innan einnar frumu.',
+       'Báðir hafa leið til að losna við úrgangsefni.',
+       'Báðir geta búið til mat úr sólarljósi.'], dtype=object)}",C
+Til að framleiða ljós breyta frumeindir inni í ljósaperu raforku í,Mercury_7014193,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['hreyfiorku.', 'rafsegulgeislun.', 'efnaorku.', 'varmaorku.'],
+      dtype=object)}",B
+Hvernig eykur fallhlíf loftmótstöðu nægilega til að fallhlífastökkvari geti lent á öruggan hátt?,Mercury_7217105,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['með því að minnka þyngdarkraft sem verkar á fallhlífastökkvarann',
+       'með því að minnka heildarþyngd fallhlífastökkvarans',
+       'með því að auka loftþrýstinginn í kringum fallhlífina',
+       'með því að auka heildaryfirborðsflatarmál fallhlífarinnar'],
+      dtype=object)}",D
+"Ný lífvera finnst. Hún er fjölfruma, sjálfnærandi og hreyfist ekki af sjálfsdáðum. Í hvaða ríkjum gæti lífveran tilheyrt?",Mercury_7262833,"{'label': array(['A', 'B', 'C', 'D'], dtype=object), 'text': array(['Sveppir og plöntur', 'Frumdýr og plöntur', 'Dýr og sveppir',
+       'Frumdýr og dýr'], dtype=object)}",B

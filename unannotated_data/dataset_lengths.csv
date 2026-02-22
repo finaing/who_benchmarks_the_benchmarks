@@ -1,0 +1,13 @@
+dataset,original_length,sampled_length
+arc_is_random_sample.csv,1116,112
+scala_is_random_sample.csv,1024,102
+iceEC_random_sample.csv,58239,250
+nqii_random_sample.csv,2132,213
+icelandic_qa_random_sample.csv,2000,200
+belebele_is_random_sample.csv,900,90
+multiwikiqa_is_random_sample.csv,5004,250
+arc_challenge_is_random_sample.csv,1119,112
+mmlu_is_random_sample.csv,277,28
+winogrande_is_random_sample.csv,1088,109
+hellaswag_is_random_sample.csv,9368,250
+ged_is_random_sample.csv,200,20

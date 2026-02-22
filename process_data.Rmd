@@ -1,0 +1,320 @@
+lis---
+title: 'Who benchmarks the benchmarks: Statistics'
+output: html_document
+date: "2025-10-08"
+---
+
+```{r}
+if (!require(tidyverse)) install.packages("tidyverse")
+if (!require(readxl)) install.packages("readxl")
+if (!require(irr)) install.packages("irr")
+if (!require(ggplot2)) install.packages("ggplot2")
+if (!require(irrCAC)) install.packages("irrCAC")
+
+```
+
+## Data setup
+
+```{r}
+
+data <- "who_benchmarks_the_benchmarks_annotated_data.xlsx"
+
+sheet_names <- c("arc_is_random_sample", "scala_is_random_sample", "iceEC_random_sample",
+                 "icelandic_qa_random_sample", "belebele_is_random_sample", "multiwikiqa_is_random_sample", "arc_challenge_is_random_sample", "ged_is_random_sample", "nqii_random_sample", "mmlu_is_random_sample", "winogrande_is_random_sample", "hellaswag_is_random_sample")
+
+benchmark_names <- c("arc_is_random_sample" = "ARC-is",
+                     "scala_is_random_sample" = "ScaLA",
+                     "iceEC_random_sample" = "IceErrorCorpus",
+                     "icelandic_qa_random_sample" = "IcelandicQA",
+                     "belebele_is_random_sample" = "Belebele-is",
+                     "multiwikiqa_is_random_sample" = "MultiWikiQA-is",
+                     "arc_challenge_is_random_sample" = "ARC-Challenge-is",
+                     "ged_is_random_sample" = "GED",
+                     "nqii_random_sample" = "NQiI",
+                     "mmlu_is_random_sample" = "MMLU-is",
+                     "winogrande_is_random_sample" = "Winogrande-is",
+                     "hellaswag_is_random_sample" = "HellaSwag-is")
+
+sample_sizes <- c("arc_is_random_sample" = 112,
+                 "scala_is_random_sample" = 102,
+                 "iceEC_random_sample" = 250,
+                 "icelandic_qa_random_sample" = 200,
+                 "belebele_is_random_sample" = 90,
+                 "multiwikiqa_is_random_sample" = 250,
+                 "arc_challenge_is_random_sample" = 112,
+                 "ged_is_random_sample" = 20,
+                 "nqii_random_sample" = 213,
+                 "mmlu_is_random_sample" = 28,
+                 "winogrande_is_random_sample" = 109,
+                 "hellaswag_is_random_sample" = 250)
+```
+
+## Setup for annotation processing 
+
+
+```{r}
+
+# custom function to calculate standard error
+se=function(data){
+  return(sd(data, na.rm = T)/sqrt(sum(!is.na(data))))
+}
+
+# mapping for labels to numeric values
+label_map <- c("ic" = -1, "f" = 0, "ok" = 1)
+
+# function to extract proportions for a given rater column
+process_props <- function(sheet_name, col) {
+  expected_size <- sample_sizes[[sheet_name]]
+  actual_size <- sum(!is.na(col))
+  if (actual_size != expected_size) {
+    warning(paste("Expected sample size", expected_size, "but got", actual_size, "in sheet", sheet_name))
+  }
+  pt <- prop.table(table(col))
+  ok_p <- if ("1" %in% names(pt)) pt[["1"]] else NA
+  f_p  <- if ("0" %in% names(pt)) pt[["0"]] else NA
+  ic_p <- if ("-1" %in% names(pt)) pt[["-1"]] else NA
+  list(ok_p = ok_p, f_p = f_p, ic_p = ic_p)
+}
+
+
+# function to calculate proportions, SE, and IRR for all rater columns in a sheet
+calculate_all_proportions <- function(sheet_name, data) {
+  df <- read_excel(data, sheet = sheet_name) |>
+    select(matches("^rater_\\d+$"))
+  
+  raters <- grep("^rater_", names(df), value = TRUE)
+  
+  valid_labels <- c("ic", "f", "ok")
+  df <- df |>
+    mutate(
+      across(all_of(raters), ~ {
+        x <- tolower(.)
+        bad_vals <- setdiff(unique(x), valid_labels)
+        if (length(bad_vals) > 0) {
+          warning(paste(
+            "Unexpected label(s) found in rater columns:",
+            paste(bad_vals, collapse = ", ")
+          ))
+        }
+        x
+      })
+    )
+  
+  df <- df |> mutate(across(all_of(raters), ~ recode(., !!!label_map)))
+  
+  kappa_result <- irrCAC::krippen.alpha.raw(df, weights = "ordinal")$est
+  
+  kappa_conf_int <- kappa_result$conf.int |>
+    gsub(pattern = "\\(|\\)", replacement = "", x = _) |>
+    strsplit(split = ",") |>
+    unlist() |>
+    as.numeric() |>
+    (\(x) paste0("(", round(x[1], 2), ", ", round(x[2], 2), ")"))()
+  
+  all_p_and_se <- lapply(df[raters], function(col) process_props(sheet_name, col))
+  
+  mean_props <- sapply(c("ok_p", "f_p", "ic_p"), function(x)
+    mean(sapply(all_p_and_se, `[[`, x), na.rm = TRUE)
+  )
+  
+  # pool all rater columns to compute a single SE
+  pooled_col <- unlist(df[raters])
+  se_pooled <- se(pooled_col)
+
+  data.frame(
+    benchmark = benchmark_names[[sheet_name]],
+    rater_no = as.character(length(raters)),
+    kappa_val = round(kappa_result$coeff.val, 2),
+    ok_p = mean_props["ok_p"],
+    f_p  = mean_props["f_p"],
+    ic_p = mean_props["ic_p"],
+    se   = se_pooled,
+    kappa_se = kappa_result$coeff.se,
+    kappa_conf_int = kappa_conf_int,
+    kappa_p_value = kappa_result$p.value)
+}
+```
+
+## Calculate proportions and IRR for all data
+
+```{r}
+options(scipen=999)
+
+# initialize empty data frame for output
+res_df <- data.frame(
+  benchmark = character(),
+  rater_no = character(),
+  kappa_val = numeric(),
+  ok_p = numeric(),
+  f_p = numeric(),
+  ic_p = numeric(),
+  se = numeric(),
+  kappa_se = numeric(),
+  kappa_conf_int = character(),
+  kappa_p_value = numeric()
+)
+
+# combine results across sheets
+res_df <- do.call(rbind, lapply(
+  c("winogrande_is_random_sample", "scala_is_random_sample", "arc_is_random_sample", "iceEC_random_sample",
+    "icelandic_qa_random_sample", "belebele_is_random_sample", "multiwikiqa_is_random_sample", "arc_challenge_is_random_sample", "ged_is_random_sample", "nqii_random_sample", "mmlu_is_random_sample", "hellaswag_is_random_sample"),
+  \(sheet) {
+    cat(paste("Processing sheet:", sheet, "\n"))
+    calculate_all_proportions(sheet, data)
+  }
+))
+
+
+``` 
+
+## Plot results
+
+```{r}
+res_long <- res_df |>
+  pivot_longer(
+    cols = c(ok_p, f_p, ic_p),
+    names_to = "label_type",
+    values_to = "proportion"
+  ) |>
+  
+  mutate(
+    label_type = factor(label_type, levels = c("ic_p", "f_p", "ok_p"),
+                        labels = c("IC", "F", "OK"))
+  )
+
+ggplot(res_long, aes(x = label_type, y = proportion, color = label_type)) +
+  geom_point(size = 4, position = position_dodge(width = 0.4)) +
+  geom_errorbar(
+    aes(ymin = proportion - se * 1.96, ymax = proportion + se * 1.96),
+    width = 0.1,
+    position = position_dodge(width = 0.4)
+  ) +
+  geom_text(
+    aes(label = round(proportion, 2)),
+    # position = position_dodge(width = 0.4),
+    hjust="inward",
+    vjust = ifelse(res_long$proportion > 0.8, 1.5, -1.5),
+    size = 4,
+    show.legend = FALSE
+  ) +
+  geom_hline(yintercept = 0.5, linetype = 2) +
+  ylim(0, 1) +
+  labs(
+    title = "Label Proportions per Benchmark",
+    x = "",
+    y = "Mean Proportion (± SE)",
+    color = "Label Type"
+  ) +
+  scale_color_manual(
+    values = c("IC" = "#440154", "F" = "#21918c", "OK" = "#5ec962")
+  ) +
+  scale_x_discrete(expand = expansion(mult = c(0.2, 0.2))) +
+  facet_wrap(~factor(benchmark,levels=c("GED", "Winogrande-is", "IcelandicQA", "ScaLA", "IceErrorCorpus", "NQiI", "ARC-Challenge-is", "MultiWikiQA-is", "Belebele-is", "ARC-is", "MMLU-is","HellaSwag-is")), nrow = 2) +
+  theme_bw(base_size = 14) +
+  theme(
+    aspect.ratio = 1,
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "right"
+  )
+ggsave("mean_proportions.png", width=12, height=6)
+```
+
+
+## Proportion per rater 
+
+```{r}
+calculate_proportions_per_rater <- function(sheet_name, data) {
+  df <- read_excel(data, sheet = sheet_name) |>
+    select(matches("^rater_\\d+$"))
+  
+  raters <- grep("^rater_", names(df), value = TRUE)
+  
+  valid_labels <- c("ic", "f", "ok")
+  df <- df |>
+    mutate(
+      across(all_of(raters), ~ {
+        x <- tolower(.)
+        bad_vals <- setdiff(unique(x), valid_labels)
+        if (length(bad_vals) > 0) {
+          warning(paste(
+            "Unexpected label(s) found in rater columns:",
+            paste(bad_vals, collapse = ", ")
+          ))
+        }
+        x
+      })
+    )
+  
+  df <- df |> mutate(across(all_of(raters), ~ recode(., !!!label_map)))
+  
+  rater_proportions <- sapply(df[raters], function(col) process_props(sheet_name, col))
+  
+  rater_df <- data.frame(
+    benchmark = benchmark_names[[sheet_name]],
+    ok_p = rater_proportions["ok_p", ],
+    f_p  = rater_proportions["f_p", ],
+    ic_p = rater_proportions["ic_p",]
+  )
+  return(rater_df)
+}
+  
+rater_res_df <- do.call(rbind, lapply(
+  c("winogrande_is_random_sample", "scala_is_random_sample", "arc_is_random_sample", "iceEC_random_sample",
+    "icelandic_qa_random_sample", "belebele_is_random_sample", "multiwikiqa_is_random_sample", "arc_challenge_is_random_sample", "ged_is_random_sample", "nqii_random_sample", "mmlu_is_random_sample", "hellaswag_is_random_sample"),
+  \(sheet) {
+    cat(paste("Processing sheet for rater proportions:", sheet, "\n"))
+    calculate_proportions_per_rater(sheet, data)
+  }
+))
+
+
+
+
+```
+
+## Plot rater proportions across all benchmarks
+
+```{r}
+rater_res_long <- rater_res_df |>
+  pivot_longer(
+    cols = -benchmark,
+    names_to = c("label_type", "rater"),
+    names_pattern = "(ok|f|ic)_p\\.(rater_\\d+)",
+    values_to = "proportion"
+  ) |>
+  mutate(
+    label_type = factor(label_type, levels = c("ic", "f", "ok"),
+                        labels = c("IC", "F", "OK"))
+  )
+
+ggplot(rater_res_long, aes(x = label_type, y = proportion, group = rater)) +
+  geom_point(aes(shape=rater, color = rater), size = 3, position = position_dodge(width = 0.4)) +
+  guides(shape = guide_legend(title = "Rater"), color = guide_legend(title = "Rater")) +
+  geom_hline(yintercept = 0.5, linetype = 2) +
+  ylim(0, 1) +
+  labs(
+    title = "Label Proportions per Rater",
+    x = "",
+    y = "Proportion"
+  ) +
+  scale_color_manual(
+    values = c("rater_1" = "#440154", "rater_2" = "#21918c", "rater_3" = "#5ec962"),
+    labels = c("rater_1" = "Rater 1", "rater_2" = "Rater 2", "rater_3" = "Rater 3")
+  ) +
+   scale_shape_manual(
+    values = c("rater_1" = 16, "rater_2" = 17, "rater_3" = 15),
+    labels = c("rater_1" = "Rater 1", "rater_2" = "Rater 2", "rater_3" = "Rater 3")
+  ) +
+  scale_x_discrete(expand = expansion(mult = c(0.2, 0.2))) +
+  facet_wrap(~factor(benchmark,levels=c("GED", "Winogrande-is", "IcelandicQA", "ScaLA", "IceErrorCorpus", "NQiI", "ARC-Challenge-is", "MultiWikiQA-is", "Belebele-is", "ARC-is", "MMLU-is","HellaSwag-is")), nrow = 4) +
+  theme_bw(base_size = 14) +
+  theme(
+    aspect.ratio = 1,
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "right"
+  )
+ggsave("proportions_per_rater.png", width=24, height=12)
+```
+
+
+
