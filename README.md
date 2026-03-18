@@ -5,12 +5,14 @@ This repository contains materials for the LREC 2026 paper "Who benchmarks the b
 If you find the paper, code or data useful in your research, please use the following citation:
 
 ```bibtex
-@inproceedings{ingimundarson_who_benchmarks_2026,
-    title = {Who benchmarks the benchmarks? A case study of LLM evaluation in Icelandic},
-    author = {},
-    year = {2026},
-    booktitle = {},
-    url = {}
+@misc{ingimundarson2026benchmarksbenchmarkscasestudy,
+      title={Who Benchmarks the Benchmarks? A Case Study of LLM Evaluation in Icelandic}, 
+      author={Finnur Ágúst Ingimundarson and Steinunn Rut Friðriksdóttir and Bjarki Ármannsson and Iris Edda Nowenstein and Steinþór Steingrímsson},
+      year={2026},
+      eprint={2603.16406},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.16406}, 
 }
 ```
 
