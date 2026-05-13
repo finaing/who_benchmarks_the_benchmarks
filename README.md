@@ -5,14 +5,18 @@ This repository contains materials for the LREC 2026 paper "Who benchmarks the b
 If you find the paper, code or data useful in your research, please use the following citation:
 
 ```bibtex
-@misc{ingimundarson2026benchmarksbenchmarkscasestudy,
-      title={Who Benchmarks the Benchmarks? A Case Study of LLM Evaluation in Icelandic}, 
-      author={Finnur Ágúst Ingimundarson and Steinunn Rut Friðriksdóttir and Bjarki Ármannsson and Iris Edda Nowenstein and Steinþór Steingrímsson},
-      year={2026},
-      eprint={2603.16406},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2603.16406}, 
+@inproceedings{ingimundarson-etal-2026-who,
+  title = {Who Benchmarks the Benchmarks? A Case Study of LLM Evaluation in Icelandic},
+  author = {Ingimundarson, Finnur Ágúst and Friðriksdóttir, Steinunn Rut and Ármannsson, Bjarki and Nowenstein, Iris and Steingrímsson, Steinþór},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
+  year = {2026},
+  pages = {4702--4715},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/5nxcp3zw7vdz},
+  abstract = {This paper evaluates current Large Language Model (LLM) benchmarking for Icelandic, identifies problems, and calls for improved evaluation methods in low/medium-resource languages in particular. We show that benchmarks that include synthetic or machine-translated data that have not been verified in any way, commonly contain severely flawed test examples that are likely to skew the results and undermine the tests’ validity. We warn against the use of such methods without verification in low/medium-resource settings as the translation quality can, at best, only be as good as MT quality for a given language at any given time. Indeed, the results of our quantitative error analysis on existing benchmarks for Icelandic show clear differences between human-authored/-translated benchmarks vs. synthetic or machine-translated benchmarks.}
 }
 ```
 
